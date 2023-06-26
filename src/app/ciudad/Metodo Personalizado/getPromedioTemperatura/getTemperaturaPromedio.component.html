@@ -1,0 +1,11 @@
+<p>get works!</p>
+<input type="text" [(ngModel)]="pais" placeholder="Pais" name="pais" required>
+<br>
+<input type="text" [(ngModel)]="provincia" placeholder="provincia" name="provincia" required>
+<br>
+
+<button (click)="getPromedioTemp()"> submit </button>
+<button routerLink="/ciudad"> Volver </button>
+<span> {{ Ciudades | json }} </span>
+
+

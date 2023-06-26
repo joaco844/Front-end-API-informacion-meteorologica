@@ -1,0 +1,11 @@
+<h6>Provincia de la que queres el Promedio</h6>
+<input type="text" [(ngModel)]="pais" placeholder="pais" name="pais" required>
+<br>
+<input type="text" [(ngModel)]="provincia" placeholder="provincia" name="provincia" required>
+<br>
+<button (click)="getPromedioProv()"> buscar </button>
+<br>
+<span> {{ paises | json }} </span>
+<br>
+
+<button routerLink="/provincia"> Volver </button>

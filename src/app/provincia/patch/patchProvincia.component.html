@@ -1,0 +1,14 @@
+<form ><label >
+    <h6>provincia que queres modificar</h6>
+    <input type="text" [(ngModel)]="provinica" placeholder="provinica que queres cambiar" name="provinica" required>
+<br>
+<h6>atributos nuevos</h6>
+    <input type="text" [(ngModel)]="nuevoNombre" placeholder="nuevo nombre de la prvincia" name="nuevoNombre" required>
+
+    <input type="text" [(ngModel)]="nombrePais" placeholder="nombre del Pais" name="nombrePais" required>
+<br>
+</label></form>
+
+<button (click)="patchProvincia()"> submit</button>
+<button routerLink="/provincia"> Volver </button>
+

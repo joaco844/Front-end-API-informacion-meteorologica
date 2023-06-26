@@ -1,0 +1,9 @@
+<h1>LOGIN</h1>
+<label> Name: <input type="text" [(ngModel)]="user" required>
+</label>
+<br>
+<label> Password: <input type="password" [(ngModel)]="psw"  required>
+</label>
+<br>
+<button type="submit" (click)="login()">ingresar</button>
+<a  routerLink="/cuenta">¿no tienes cuenta?</a>

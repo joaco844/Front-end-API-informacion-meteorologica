@@ -1,0 +1,10 @@
+<h6>introducir los datos de la ciudad que quieres modificar</h6>
+<input type="text" [(ngModel)]="pais" placeholder="Pais" name="pais" required>
+<br>
+<input type="text" [(ngModel)]="provincia" placeholder="provincia" name="provincia" required>
+<br>
+<input type="text" [(ngModel)]="ciudad" placeholder="ciudad" name="ciudad" required>
+<br>
+<button (click)="putCiudad()"> submit </button>
+
+<button routerLink="/ciudad"> Volver </button>

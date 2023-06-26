@@ -1,0 +1,15 @@
+<h6>Pais, Provincia y Ciudad a la que le queres agregar tiempo</h6>
+<input type="text" [(ngModel)]="pais" placeholder="Pais" name="pais" required>
+<br>
+<input type="text" [(ngModel)]="provincia" placeholder="provincia" name="provincia" required>
+<br>
+<input type="text" [(ngModel)]="ciudad" placeholder="ciudad" name="ciudad" required>
+<br>
+<h6>Fecha y Grados</h6>
+<input type="date" [(ngModel)]="fecha" placeholder="fecha" name="fecha" required>
+<input type="number" [(ngModel)]="grados" placeholder="grados" name="grados" required>
+
+<button (click)="postTiemp()"> submit </button>
+
+<button routerLink="/tiempo"> Volver </button>
+

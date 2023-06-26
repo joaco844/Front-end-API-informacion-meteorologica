@@ -1,0 +1,14 @@
+<h6>Tiempo a actualizar</h6>
+<input type="date" [(ngModel)]="fecha" placeholder="fecha" name="fecha" required>
+<input type="numbre" [(ngModel)]="grados" placeholder="grados" name="grados" required>
+<input type="text" [(ngModel)]="pais" placeholder="Pais" name="pais" required>
+<input type="text" [(ngModel)]="provincia" placeholder="provincia" name="provincia" required>
+<input type="text" [(ngModel)]="ciudad" placeholder="ciudad" name="ciudad" required>
+<br>
+<h6>ingresar datos nuevos</h6>
+<input type="date" [(ngModel)]="nuevaFecha" placeholder="Pais que queres cambiar" name="pais" required>
+<input type="number" [(ngModel)]="nuevoGrados" placeholder="Pais que queres cambiar" name="pais" required>
+<br>
+<button (click)="patchTiempo()"> submit</button>
+<button routerLink="/tiempo"> Volver </button>
+

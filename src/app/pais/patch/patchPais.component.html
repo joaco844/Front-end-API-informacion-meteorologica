@@ -1,0 +1,12 @@
+<form ><label >
+    <input type="text" [(ngModel)]="pais" placeholder="Pais que queres cambiar" name="pais" required>
+<br>
+<input type="text" [(ngModel)]="nuevoNombre" placeholder="nuevoNombre" name="nuevoNombre" required>
+
+    <input type="text" [(ngModel)]="nombreProvincia" placeholder="nombreProvincia" name="nombreProvincia" required>
+<br>
+</label></form>
+
+<button (click)="patchPais()"> submit</button>
+<button routerLink="/pais"> Volver </button>
+

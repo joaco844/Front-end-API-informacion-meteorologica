@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="pais" placeholder="Pais que queres buscar" name="pais" required>
+<br>
+<button (click)="getUnPais()"> buscar </button>
+<br>
+<span> {{ paises | json }} </span>
+<br>
+
+<button routerLink="/pais"> Volver </button>
